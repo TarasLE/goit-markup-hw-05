@@ -436,15 +436,17 @@ ul {
 }
 
 .duties-card .subtitle {
+  display: flex;
+  height: 70px;
   width: inherit;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
-  /* flex-wrap: nowrap; */
-  padding-top: 27px;
-  /* padding-left: 40px; */
-  padding-bottom: 27px;
-  margin-bottom: 0;
-  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  position: absolute;
+  bottom: 0;
 }
 
 .duties .title,
@@ -464,9 +466,11 @@ ul {
   height: 294px;
   width: 370px;
 
+  position: relative;
+
   /* align-content: center; */
   /* justify-content: center; */
-  align-items: flex-end;
+  /* align-items: flex-end; */
   /* text-align: center; */
 }
 

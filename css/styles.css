@@ -562,7 +562,12 @@ ul {
   line-height: 1.18;
 }
 
+.location {
+  display: block;
+}
+
 .location.text {
+  width: max-content;
   color: var(--primary-white-color);
   /* background-color: #757575; */
 }
@@ -776,7 +781,14 @@ ul {
   text-align: left;
   align-items: baseline;
   background-color: #2f303a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* .page-footer .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+} */
 
 /* -----------------PORTFOLIO------------------ */
 .portfolio-buttons.text {

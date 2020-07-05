@@ -659,7 +659,7 @@ ul {
   display: block;
   text-align: center;
   background-color: #757575; /*временный цвет*/
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -757,7 +757,7 @@ ul {
   display: block;
   /* width: 1600px; */
   text-align: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-top: 94px;
   /* margin-right: auto;
   margin-left: auto; */
